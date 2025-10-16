@@ -16,9 +16,10 @@ public class Grep {
     private static final String TEXTO_3 = "es un módulo de DAM";
     private static final String TEXTO_4 = "y se programa de forma concurrente en psp";
     private static final String TEXTO_5 = "psp es programación.";
+
     public static void main(String[] args) throws IOException {
 
-        Process p = Runtime.getRuntime().exec("grep "+PALABRA);
+        Process p = Runtime.getRuntime().exec("grep " + PALABRA);
         OutputStream out = p.getOutputStream();
         PrintWriter pw = new PrintWriter(new OutputStreamWriter(out));
         pw.println(TEXTO_1);
