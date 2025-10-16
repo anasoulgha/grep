@@ -1,25 +1,25 @@
-# Proyecto Java: Ejecución de un Proceso Externo (`grep`)
+# Proyecto Java: Ejecución de un Proceso Externo (grep)
 
-Este proyecto demuestra cómo ejecutar un **proceso externo** (`grep`) desde Java, enviarle texto por su entrada estándar y capturar su salida en la consola.  
+Este proyecto demuestra cómo ejecutar un **proceso externo** (grep) desde Java, enviarle texto por su entrada estándar y capturar su salida en la consola.  
 Incluye un test con **JUnit 5** para verificar el comportamiento del programa.
 
 ---
 
 ## Contenido del proyecto
 
-- Clase principal: `PadreGrep`
+- Clase principal: Grep
 - Test con JUnit 5 para validar la salida del programa
 
 ---
 
 ## Descripción del programa
 
-La clase `PadreGrep` realiza los siguientes pasos:
+La clase Grep realiza los siguientes pasos:
 
-1. Ejecuta el comando `grep psp` como proceso hijo.
+1. Ejecuta el comando grep psp como proceso hijo.
 2. Envía varias líneas de texto a la entrada del proceso.
 3. Captura la salida del proceso y la imprime por consola.
-4. Solo se muestran las líneas que contienen la palabra exacta `psp`.
+4. Solo se muestran las líneas que contienen la palabra exacta psp.
 
 ---
 

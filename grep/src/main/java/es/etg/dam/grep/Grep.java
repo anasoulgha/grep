@@ -28,6 +28,7 @@ public class Grep {
         pw.println(TEXTO_4);
         pw.println(TEXTO_5);
         pw.close();
+        
 
         BufferedReader br = new BufferedReader(new InputStreamReader(p.getInputStream()));
         String linea;
